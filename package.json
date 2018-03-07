@@ -1,0 +1,26 @@
+{
+  "name": "words",
+  "version": "0.1.0",
+  "description": "Another way to take notes on your computer",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshawnrice/words.git"
+  },
+  "keywords": [
+    "notes",
+    "markdown",
+    "electron",
+    "react",
+    "redux"
+  ],
+  "author": "Shawn Rice",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/iamshawnrice/words/issues"
+  },
+  "homepage": "https://github.com/iamshawnrice/words#readme"
+}
