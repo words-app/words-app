@@ -2,8 +2,9 @@
   "name": "words",
   "version": "0.1.0",
   "description": "Another way to take notes on your computer",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "test"
   },
   "repository": {
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/iamshawnrice/words/issues"
   },
-  "homepage": "https://github.com/iamshawnrice/words#readme"
+  "homepage": "https://github.com/iamshawnrice/words#readme",
+  "devDependencies": {
+    "electron": "^1.8.3"
+  }
 }
