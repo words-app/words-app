@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:words-app/words-api.git
+[submodule "client"]
+	path = client
+	url = git@github.com:words-app/words-client.git
