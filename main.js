@@ -2,8 +2,6 @@ const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const url = require('url');
 
-const server = require('./api/server');
-
 function createWindow () {
     // Create the browser window.
     win = new BrowserWindow({width: 800, height: 600});
@@ -22,11 +20,10 @@ function createWindow () {
         // when you should delete the corresponding element.
         win = null;
     });
-
-    app.server = server();
 }
 
 app.on('ready', () => {
+    require('./api/server');
     createWindow();
 });
 
